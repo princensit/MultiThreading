@@ -1,14 +1,14 @@
-*target*
-*.jar
-*.war
-*.ear
-*.class
-
-## generic files to ignore
 *~
-*.lock
-*.DS_Store
-*.swp
-*.out
+/target
+/logs
+/.git
+/.metadata
+/.settings
+/.classpath
+/.project
+/.idea/*
+/.idea2/*
+*.iml
+data/*
+upload.msg
 
-!.gitignore
